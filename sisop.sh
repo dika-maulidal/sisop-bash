@@ -129,12 +129,12 @@ show_os_info() {
         cpu=$(awk '/cpu / { total=$2+$4+$5; printf "    %%CPU: %.2f us, %.2f sy, %.2f id", ($2/total)*100, ($4/total)*100, ($5/total)*100 }' /proc/stat)
         echo -e "\033[36m$cpu\033[0m"
     fi
-
+    
     echo -e "${BOLD}${LCYAN}\n[ Penggunaan Memori: ]${NC}"
-    echo -e "\033[36m$(free -h)\033[0m"
+    free -h | awk 'NR==1 {print "\033[1;37m" $0 "\033[0m"} NR>1 {print "\033[1;36m" $0 "\033[0m"}'
 
     echo -e "${BOLD}${LCYAN}\n[ Penggunaan Disk: ]${NC}"
-    echo -e "\033[36m$(df -h)\033[0m"
+    df -h | awk 'NR==1 {print "\033[1;37m" $0 "\033[0m"} NR>1 {print "\033[1;36m" $0 "\033[0m"}'
 
     pause
 }
