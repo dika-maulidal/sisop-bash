@@ -1,7 +1,7 @@
-# INFORMASI DETAIL TUGAS PENGGANTI MATA KULIAH SISTEM OPERASI IT-06-01
+# TUGAS PENGGANTI MATA KULIAH SISTEM OPERASI IT-06-01
 ## Identitas
-- Nama : Dika Maulidal Musthofa
-- NIM  : 1202230032
+- **Nama** : Dika Maulidal Musthofa
+- **NIM**  : 1202230032
 
 ## Menu yang dikerjakan
 - Menu 3 Informasi Jaringan
@@ -10,16 +10,17 @@
 ## Dokumentasi Menu 
 - Tampilan Keseluruhan Menu
 
-  ![Home](https://github.com/user-attachments/assets/33ba7101-e85a-45e2-af70-549c29bbbdb5)
+  ![1  tampilan menu](https://github.com/user-attachments/assets/0ca6cdeb-64d2-443b-bf34-263b620ea388)
 
 - Menu 3 Informasi Jaringan
 
-  ![Jaringan](https://github.com/user-attachments/assets/e0a5aa3a-4710-45f4-abad-c94b6e785e2b)
+  ![2  jaringan](https://github.com/user-attachments/assets/fc541a32-b508-41b1-ab46-349693fdd46b)
 
 - Menu 4 Detail OS
 
-  ![OS](https://github.com/user-attachments/assets/cf05cd7d-9efa-4fc0-b1c9-5778771b94d1)
+  ![3  detail os](https://github.com/user-attachments/assets/ca8903d5-69ce-4b3f-93e8-73caa66a48bb)
 
 - Tampilan Saat Keluar Program
 
-  ![Exit](https://github.com/user-attachments/assets/60c49d09-3fa7-46e2-8e46-8f1f86f818a2)
+  ![4  keluar](https://github.com/user-attachments/assets/ba15a8da-4802-4976-bad9-904c156f31e4)
+
